@@ -30,3 +30,29 @@ print(e)
 # Todays weather is nice, but tomorrow it will be rainy.
 f = 'Today\'s weather is nice, but tomorrow it will be rainy.'
 print(f)
+
+"""
+- Lists: [1, 2, 3], ['apple', 'banana', 'cherry']
+- Tuples: (1, 2, 3), ('apple', 'banana', 'cherry')
+- Dictionaries: {'name': 'Alice', 'age': 30}    
+- Sets: {1, 2, 3}, {'apple', 'banana', 'cherry'}    
+- None: Represents the absence of a value
+- Complex numbers: 1 + 2j
+"""
+test_list = [1, 2, 3], ['apple', 'banana', 'cherry']
+print(test_list)
+
+test_tuple = (1, 2, 3), ('apple', 'banana', 'cherry')
+print(test_tuple)
+
+test_dictionary = {'name': 'Alice', 'age': 30}
+print(test_dictionary)
+
+test_set = {1, 2, 3}, {'apple', 'banana', 'cherry'}
+print(test_set)
+
+test_none = None
+print(test_none)
+
+test_complex = 1 + 2j
+print(test_complex)
