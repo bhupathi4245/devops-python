@@ -40,19 +40,19 @@ print(f)
 - Complex numbers: 1 + 2j
 """
 test_list = [1, 2, 3], ['apple', 'banana', 'cherry']
-print(test_list)
+print(f"test_list: {test_list}")
 
 test_tuple = (1, 2, 3), ('apple', 'banana', 'cherry')
-print(test_tuple)
+print(f"test_tuple: {test_tuple}")
 
 test_dictionary = {'name': 'Alice', 'age': 30}
-print(test_dictionary)
+print(f"test_dict: {test_dictionary}")
 
 test_set = {1, 2, 3}, {'apple', 'banana', 'cherry'}
-print(test_set)
+print(f"test_set: {test_set}")
 
 test_none = None
-print(test_none)
+print(f"test_none: {test_none}")
 
 test_complex = 1 + 2j
-print(test_complex)
+print(f"test_complex: {test_complex}")
