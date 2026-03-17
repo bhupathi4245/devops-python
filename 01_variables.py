@@ -126,6 +126,9 @@ print(f"Is {x} greater than or equal to {y}? {x >= y}")
 print(f"Is {x} less than or equal to {y}? {x <= y}")
 
 # Logical operators AND, OR, NOT
-print(f"Is {x} greater than 5 AND {y} less than 10? {(x > 5) and (y < 10)}")
-print(f"Is {x} greater than 5 OR {y} less than 10? {(x > 5) or (y < 10)}")
-print(f"Is NOT {x} greater than 5? {not (x > 5)}")  
+a = True
+b = False
+print(f"Logical AND: {a} and {b} = {a and b}")
+print(f"Logical OR: {a} or {b} = {a or b}")
+print(f"Logical NOT: not {a} = {not a}")
+print(f"Logical NOT: not {b} = {not b}")
