@@ -12,8 +12,14 @@ print(f"Slice (1:4): {sample_slice}")
 sliced_tuple_length = len(sample_slice)  # 3
 print(f"Length of sliced tuple: {sliced_tuple_length}")
 
-sample_tuple[1] = "Puppet"  # This will raise an error because tuples are immutable
-
+# sample_tuple[1] = "Puppet"  # This will raise an error because tuples are immutable
+"""
+Traceback (most recent call last):
+  File "C:\devops\bhupathi4245\repos\devops-python\03_tuples.py", line 15, in <module>
+    sample_tuple[1] = "Puppet"  # This will raise an error because tuples are immutable
+    ~~~~~~~~~~~~^^^
+TypeError: 'tuple' object does not support item assignment
+"""
 
 # Operations on tuples
 res_tuple = sample_tuple + ("Git", "Ansible Tower")  # Concatenation
