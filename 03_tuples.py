@@ -45,4 +45,10 @@ ValueError: tuple.index(x): x not found """
 tool1, tool2, tool3, tool4, tool5 = sample_tuple
 print(f"Unpacked tools: {tool1}, {tool2}, {tool3}, {tool4}, {tool5}")
 
+tool1, tool2, *rest = sample_tuple
+print(f"Tool 1: {tool1}, Tool 2: {tool2}, Rest: {rest}")    
+
+tool1, *middle, tool5 = sample_tuple
+print(f"Tool 1: {tool1}, Middle: {middle}, Tool 5: {tool5}") 
+
 # Method 2: Using the tuple() constructor
