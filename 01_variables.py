@@ -113,3 +113,7 @@ print(f"Identity: (x is y) = {identity_result}")
 membership_result = 5 in [1, 2, 3, 4, 5]
 print(f"Membership: 5 in [1, 2, 3, 4, 5] = {membership_result}")
 
+# Power
+power_result = x ** 2
+print(f"Power: {x} ** 2 = {power_result}")
+
