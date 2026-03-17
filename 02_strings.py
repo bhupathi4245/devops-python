@@ -62,7 +62,7 @@ except TypeError as e:
     print(f"Error: {e}")
 """
 Traceback (most recent call last):
-  File "/home/cloudshell-user/python-devops/02_strings.py", line 52, in <module>
-    sample_str[-1] = 'G'
-TypeError: 'str' object does not support item assignment
+  File "/home/cloudshell-user/python-devops/02_strings.py", line 60, in <module>
+    sample_str[0] = 't'
+Error: 'str' object does not support item assignment
 """
