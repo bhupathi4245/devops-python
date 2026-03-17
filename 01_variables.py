@@ -58,3 +58,58 @@ print(f"test_none: {test_none} is a data type of {type(test_none)}.")
 
 test_complex = 1 + 2j
 print(f"test_complex: {test_complex} is a data type of {type(test_complex)}.")
+
+# Operations on variables
+# Addition, Subtraction, Multiplication, Division, Modulus, Exponentiation, 
+# Floor Division, Assignment, Comparison, Logical, Identity, Membership Operators, 
+
+# Add
+x = 10
+y = 5
+add_result = x + y
+print(f"Addition: {x} + {y} = {add_result}")
+
+# Subtract
+subtract_result = x - y 
+print(f"Subtraction: {x} - {y} = {subtract_result}")
+
+# Multiply
+multiply_result = x * y
+print(f"Multiplication: {x} * {y} = {multiply_result}")
+
+# Divide
+divide_result = x / y
+print(f"Division: {x} / {y} = {divide_result}")
+
+# Modulus
+modulus_result = x % y 
+print(f"Modulus: {x} % {y} = {modulus_result}")
+
+# Exponentiation
+exponentiation_result = x ** y
+print(f"Exponentiation: {x} ** {y} = {exponentiation_result}")
+
+# Floor Division
+floor_division_result = x // y
+print(f"Floor Division: {x} // {y} = {floor_division_result}")
+
+# Assignment
+z = 20 
+print(f"Assignment: z = {z}")  
+
+# Comparison
+comparison_result = x > y 
+print(f"Comparison: {x} > {y} = {comparison_result}")
+
+# Logical
+logical_result = (x > 5) and (y < 10)
+print(f"Logical: (x > 5) and (y < 10) = {logical_result}")
+
+# Identity
+identity_result = (x is y)
+print(f"Identity: (x is y) = {identity_result}")
+
+# Membership
+membership_result = 5 in [1, 2, 3, 4, 5]
+print(f"Membership: 5 in [1, 2, 3, 4, 5] = {membership_result}")
+
