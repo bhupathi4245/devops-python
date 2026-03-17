@@ -39,20 +39,22 @@ print(f)
 - None: Represents the absence of a value
 - Complex numbers: 1 + 2j
 """
+
+# type() function is used to check the data type of a variable
 test_list = [1, 2, 3], ['apple', 'banana', 'cherry']
-print(f"test_list: {test_list}")
+print(f"test_list: {test_list} is a {type(test_list)} data type.")
 
 test_tuple = (1, 2, 3), ('apple', 'banana', 'cherry')
-print(f"test_tuple: {test_tuple}")
+print(f"test_tuple: {test_tuple} is a {type(test_tuple)} data type.")
 
 test_dictionary = {'name': 'Alice', 'age': 30}
-print(f"test_dict: {test_dictionary}")
+print(f"test_dict: {test_dictionary} is a {type(test_dictionary)} data type.")
 
 test_set = {1, 2, 3}, {'apple', 'banana', 'cherry'}
-print(f"test_set: {test_set}")
+print(f"test_set: {test_set} is a {type(test_set)} data type.")
 
 test_none = None
-print(f"test_none: {test_none}")
+print(f"test_none: {test_none} is a {type(test_none)} data type.")
 
 test_complex = 1 + 2j
-print(f"test_complex: {test_complex}")
+print(f"test_complex: {test_complex} is a {type(test_complex)} data type.")
