@@ -1,3 +1,5 @@
+Git repo original git link(Pavan Kumar Akula)
+Link: https://github.com/learninguser/python-devops
 Python Scripting
 ----------------
 1. Variables -> data types
