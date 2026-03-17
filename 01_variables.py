@@ -117,3 +117,10 @@ print(f"Membership: 5 in [1, 2, 3, 4, 5] = {membership_result}")
 power_result = x ** 2
 print(f"Power: {x} ** 2 = {power_result}")
 
+# Comparison operators
+print(f"Is {x} equal to {y}? {x == y}")
+print(f"Is {x} not equal to {y}? {x != y}")
+print(f"Is {x} greater than {y}? {x > y}")
+print(f"Is {x} less than {y}? {x < y}")
+print(f"Is {x} greater than or equal to {y}? {x >= y}")
+print(f"Is {x} less than or equal to {y}? {x <= y]}")
