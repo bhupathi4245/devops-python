@@ -1,5 +1,6 @@
 # There are 2 methods to create a tuple:
 # Method 1: Using parentheses
+# Method 2: Using the tuple() constructor
 my_tuple = (1, 2, 3, "Hello", True)
 sample_tuple = ("Ansible", "Terraform", "Jenkins", "Docker", "K8s") # my toolkit
 
@@ -49,6 +50,4 @@ tool1, tool2, *rest = sample_tuple
 print(f"Tool 1: {tool1}, Tool 2: {tool2}, Rest: {rest}")    
 
 tool1, *middle, tool5 = sample_tuple
-print(f"Tool 1: {tool1}, Middle: {middle}, Tool 5: {tool5}") 
-
-# Method 2: Using the tuple() constructor
+print(f"Tool 1: {tool1}, Middle: {middle}, Tool 5: {tool5}")   
