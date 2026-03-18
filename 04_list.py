@@ -49,5 +49,14 @@ sample_list.insert(2, "Puppet")  # Inserts 'Puppet' at index 2
 print(f"List after insert: {sample_list}") 
 
 # Remove and pop
+sample_list = ["Ansible", "Terraform", "Jenkins", "Docker", "K8s"]
 sample_list.remove("Docker")  # Removes the first occurrence of 'Docker'
 print(f"List after remove: {sample_list}")
+popped_element = sample_list.pop(3)  # Removes and returns the element at index 3
+print(f"Popped element: {popped_element}")
+
+# List membership
+is_jenkins_in_list = "Jenkins" in sample_list  # True
+print(f"Is 'Jenkins' in the list? {is_jenkins_in_list}")
+is_gitlab_in_list = "GitLab" in sample_list  # False
+print(f"Is 'GitLab' in the list? {is_gitlab_in_list}")
