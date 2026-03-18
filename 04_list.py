@@ -30,3 +30,21 @@ print(f"Length of sliced tuple: {sliced_list_len}")
 # You can add, remove, or modify elements in a list after it has been created.
 sample_list[0] = "Puppet"  # This will work because lists are mutable
 print(f"Modified list: {sample_list}")
+
+# Append and extend
+sample_list = ["Ansible", "Terraform", "Jenkins", "Docker", "K8s"]
+sample_list.append("Git")  # Adds 'Git' to the end of the list
+print(f"List after append: {sample_list}")
+
+sample_list.extend(["Ansible Tower", "GitHub Actions"])  # Adds multiple elements to the end of the list
+print(f"List after extend: {sample_list}")
+sample_list.append(sample_list)  # Adds the list itself as an element (creating a nested list)
+print(f"List after appending itself: {sample_list}")
+
+# Insert
+sample_list.insert(2, "Puppet")  # Inserts 'Puppet' at index 2
+print(f"List after insert: {sample_list}") 
+
+# Remove and pop
+sample_list.remove("Docker")  # Removes the first occurrence of 'Docker'
+print(f"List after remove: {sample_list}")
