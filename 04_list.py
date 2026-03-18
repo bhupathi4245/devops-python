@@ -38,7 +38,7 @@ print(f"List after append: {sample_list}")
 
 sample_list.extend(["Ansible Tower", "GitHub Actions"])  # Adds multiple elements to the end of the list
 print(f"List after extend: {sample_list}")
-sample_list.append(sample_list)  # Adds the list itself as an element (creating a nested list)
+sample_list.append(sample_list[2])  # Adds the list itself as an element (creating a nested list)
 print(f"List after appending itself: {sample_list}")
 
 # Insert
