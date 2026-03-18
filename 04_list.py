@@ -53,7 +53,7 @@ sample_list = ["Ansible", "Terraform", "Jenkins", "Docker", "K8s"]
 sample_list.remove("Docker")  # Removes the first occurrence of 'Docker'
 print(f"List after remove: {sample_list}")
 popped_element = sample_list.pop(3)  # Removes and returns the element at index 3
-print(f"Popped element: {popped_element}")
+print(f"Popped element: {popped_element} from {sample_list}")
 
 # List membership
 is_jenkins_in_list = "Jenkins" in sample_list  # True
