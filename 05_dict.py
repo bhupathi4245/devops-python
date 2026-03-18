@@ -28,3 +28,13 @@ print(f"Key-value pairs in the dictionary: {items}")
 # Dictionary comprehension
 squared_dict = {x: x**2 for x in range(1, 6)}  # Creates a dictionary of numbers and their squares
 print(f"Squared dictionary: {squared_dict}")
+
+# What happens if you access a key that is not present inside a dict
+sample_dict = {"1": 1, 2: 4, 3: 9}
+print(sample_dict.get("1")) # 1
+print(sample_dict.get(1)) # None
+# print(sample_dict[1]) # Error
+
+sample_dict = {1: 1, 2: 4, 3: 9}
+sample_dict[4] = 16
+print(sample_dict)
