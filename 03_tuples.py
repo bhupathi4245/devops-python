@@ -1,12 +1,15 @@
 # There are 2 methods to create a tuple:
 # Method 1: Using parentheses
 # Method 2: Using the tuple() constructor
+
+# Creating tuples indexing and slicing
 my_tuple = (1, 2, 3, "Hello", True)
 sample_tuple = ("Ansible", "Terraform", "Jenkins", "Docker", "K8s") # my toolkit
 
 sample_ele = sample_tuple[0]  # 'Ansible'
 print(f"First element: {sample_ele}")
 
+# Slicing in tuples
 sample_slice = sample_tuple[1:4]  # ('Terraform', 'Jenkins', 'Docker')
 print(f"Slice (1:4): {sample_slice}")
 
