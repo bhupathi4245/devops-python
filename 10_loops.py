@@ -19,25 +19,25 @@ for idx in range(0, len(sample_list)):
 
 for idx in range(0, len(sample_list)):
     if sample_list[idx] == "Jenkins":
-        print(f"Found Jenkins at index: {sample_list(idx)}")
+        print(f"Found Jenkins at index: {sample_list[idx]}")
         break
 
 for idx in range(0, len(sample_list)):
     if sample_list[idx] == "Jenkins":
-        print(f"Found Jenkins at index {idx}: {sample_list(idx)}")
+        print(f"Found Jenkins at index {idx}: {sample_list[idx]}")
         continue
     print(f"Index: {idx}, Tool: {sample_list[idx]}")
 
 for idx in range(0, len(sample_list)):
     if sample_list[idx] == "Jenkins":
         pass  # This will do nothing and continue to the next iteration
-        print(f"Found Jenkins at index {idx}: {sample_list(idx)}")
+        print(f"Found Jenkins at index {idx}: {sample_list[idx]}")
         break
 
 # exit code
 for idx in range(0, len(sample_list)):
     if sample_list[idx] == "Jenkins":
-        print(f"Found Jenkins at index {idx}: {sample_list(idx)}")
+        print(f"Found Jenkins at index {idx}: {sample_list[idx]}")
         exit(0)  # Exit the program with a success code
     print(f"Index: {idx}, Tool: {sample_list[idx]}")
 
